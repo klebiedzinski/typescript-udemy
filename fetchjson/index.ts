@@ -16,8 +16,8 @@ axios.get(url).then((res) => {
 
 const logPost = (id: number, title: string, body: string) => {
     console.log(`
-        Post with id: ${id}
+        Post with id: ${id} 
         Has a title of ${title}
         boom, body: ${body}
-    `);
+    `); 
 };
